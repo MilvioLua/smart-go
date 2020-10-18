@@ -1,0 +1,32 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css|css)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+
+RewriteEngine on
+
+RewriteRule ^index/?$ index.php? [NC]
+RewriteRule ^index/page/([0-9-]+)/?$ index.php?page=$1? [NC]
+
+RewriteRule ^plans/?$ plans.php? [NC]
+
+RewriteRule ^new\/survey/?$ newsurvey.php? [NC]
+
+RewriteRule ^surveys/all/?$ index.php?request=all [NC]
+RewriteRule ^surveys/all/page/([0-9-]+)/?$ index.php?request=all&page=$1? [NC]
+
+RewriteRule ^user\/details\/([0-9-]+)/?$ userdetails\.php\?id=$1? [NC]
+RewriteRule ^user\/details/?$ userdetails\.php? [NC]
+
+
+RewriteRule ^survey/([0-9-]+)/view/?$ survey.php?id=$1&request=su [NC]
+RewriteRule ^survey/([0-9-]+)/?$ survey.php?id=$1? [NC]
+RewriteRule ^edit/survey/([0-9-]+)/?$ editsurvey.php?id=$1? [NC]
+
+RewriteRule ^responses/([0-9-]+)/?$ responses.php?id=$1? [NC]
+RewriteRule ^rapport/([0-9-]+)/?$ rapport.php?id=$1? [NC]
+
+RewriteRule ^dashboard/([A-Za-z0-9-]+)/page/([0-9-]+)/?$ dashboard.php\?pg=$1&page=$2 [NC]
+RewriteRule ^dashboard/([A-Za-z0-9-]+)/?$ dashboard.php\?pg=$1 [NC]
+RewriteRule ^dashboard/?$ dashboard.php? [NC]

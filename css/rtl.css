@@ -1,0 +1,98 @@
+html, body {
+	direction: rtl;
+	text-align: right;
+	font-family: "El Messiri";
+}
+*, html, body, a, h1, h2, h3, h4, h5, h6 {
+	font-family: "El Messiri" !important;
+	/*font-family: "Harmattan";*/
+}
+
+.pt-header .pt-menu .pt-logo,
+.pt-header .pt-menu .pt-links-l,
+.pt-header .pt-menu .pt-links-l ul li,
+.pt-header .pt-menu .pt-links-r ul li {
+  float: right;
+}
+
+.pt-header .pt-menu .pt-logo {
+  margin-right: 0;
+  margin-left: 24px;
+}
+
+.pt-header .pt-menu .pt-links-r {
+  float: left;
+}
+
+.pt-header .pt-menu .pt-links-r ul li a.pt-user + ul li a i, .pt-header .pt-menu .pt-links-r ul li a.pt-user + ul li a svg {
+  margin-right: 0;
+  margin-left: 6px;
+}
+
+.pt-header .pt-menu .pt-links-r ul li a.pt-user + ul {
+	right: auto;
+	left: 0;
+}
+.pt-header .pt-menu .pt-links-r ul li a.pt-user + ul.open {
+	right: auto;
+  left: -8px;
+}
+
+.pt-header .pt-menu .pt-links-r ul li a.pt-user {
+    margin-right: 18px;
+    margin-left: 0;
+}
+
+.tgl + .tgl-btn:after {
+  left: auto;
+  right: 0;
+}
+.tgl:checked + .tgl-btn:after {
+    left: auto;
+    right: 50%;
+}
+
+.pt-body .table .pt-options .pt-options-link {
+	right: auto;
+	left: 24px;
+}
+.pt-body .table .pt-progress span {
+  float: right;
+}
+.pt-body .pt-title .pt-options {
+  top: 18px;
+  right: auto;
+  left: 6px;
+}
+
+.pt-dashboardpage .pt-admin-nav .pt-logo {
+	margin-left: 0;
+	margin-right: 30px;
+}
+.pt-dashboardpage .pt-admin-nav ul li a {
+	margin-right: -32px;
+	margin-left: 0;
+	border-radius: 0 44px 44px 0;
+}
+.pt-dashboardpage .pt-admin-nav ul li.pt-active a:before, .pt-dashboardpage .pt-admin-nav ul li.pt-active a:after {
+	right: auto;
+	left: 0;
+}
+.pt-dashboardpage .pt-admin-nav ul li.pt-active a:before {
+  transform: rotate(28deg);
+}
+.pt-dashboardpage .pt-admin-nav ul li.pt-active a:after {
+  bottom: -30px;
+  transform: rotate(140deg);
+}
+.pt-dashboardpage .pt-admin-nav ul li a i, .pt-dashboardpage .pt-admin-nav ul li a svg {
+    margin-left: 26px;
+    margin-right: 0;
+}
+
+.pt-dashboardpage .pt-admin-body {
+	right: auto;
+  left: -100px;
+	padding-right: 68px;
+	padding-left: 168px;
+}

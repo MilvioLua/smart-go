@@ -1,0 +1,253 @@
+<?php
+
+$lang["rtl"] = true;
+$lang["lang"] = "ar";
+$lang["close"] = "قريب";
+$lang["loading"] = "جار التحميل...";
+$lang["timedate"]["time_second"] = "ثانيا";
+$lang["timedate"]["time_minute"] = "دقيقة";
+$lang["timedate"]["time_hour"] = "ساعة";
+$lang["timedate"]["time_day"] = "يوم";
+$lang["timedate"]["time_week"] = "أسبوع";
+$lang["timedate"]["time_month"] = "شهر";
+$lang["timedate"]["time_year"] = "عام";
+$lang["timedate"]["time_decade"] = "عقد";
+$lang["timedate"]["time_ago"] = "منذ";
+
+$lang["menu"]["home"] = "الصفحة الرئيسية";
+$lang["menu"]["forms"] = "نماذج";
+$lang["menu"]["about"] = "معلومات عنا";
+$lang["menu"]["plans"] = "الخطط";
+$lang["menu"]["welcome"] = "أهلا بك";
+$lang["menu"]["new"] = "مسح جديد";
+$lang["menu"]["admin"] = "الادارة";
+$lang["menu"]["info"] = "إدارة المعلومات";
+$lang["menu"]["logout"] = "تسجيل خروج";
+$lang["menu"]["signin"] = "تسجيل الدخول";
+
+$lang["login"]["username"] = "اسم المستخدم أو البريد الإلكتروني الخاص بك";
+$lang["login"]["password"] = "كلمتك السرية";
+$lang["login"]["keep"] = "أبق تسجيل دخولي";
+$lang["login"]["button"] = "تسجيل الدخول";
+$lang["login"]["footer"] = "ليس لديك حساب؟";
+$lang["login"]["footer_l"] = "الاشتراك مجانا";
+$lang["login"]["alert"]["required"] = "لقد تركت اسم المستخدم أو كلمة المرور فارغة!";
+$lang["login"]["alert"]["moderat"] = "تم حظر العضوية من قبل المشرف ، إذا كنت تعتقد أن هذا خطأ ، فلا تتردد في الاتصال بنا.";
+$lang["login"]["alert"]["activation"] = "تحتاج العضوية إلى تفعيل البريد الإلكتروني.";
+$lang["login"]["alert"]["approve"] = "يجب أن توافق الإدارة على العضوية.";
+$lang["login"]["alert"]["success"] = "لقد قمت بتسجيل الدخول بنجاح ، نتمنى لك قضاء أوقات ممتعة.";
+$lang["login"]["alert"]["social"] = "هناك مشكلة في معرّفك الاجتماعي ، اسم المستخدم الذي تريد تسجيل الدخول به ليس لك أو موجودًا بالفعل بمعرّف اجتماعي مختلف!";
+$lang["login"]["alert"]["error"] = "اسم المستخدم أو كلمة المرور غير متوفرة!";
+
+
+$lang["signup"]["username"] = "اسم المستخدم الخاص بك";
+$lang["signup"]["password"] = "كلمتك السرية";
+$lang["signup"]["email"] = "بريدك الالكتروني";
+$lang["signup"]["button"] = "سجل";
+$lang["signup"]["footer"] = "هل لديك حساب؟";
+$lang["signup"]["footer_l"] = "تسجيل الدخول";
+$lang["signup"]["alert"]["required"] = "جميع الحقول المعلمة ب * مطلوبة!";
+$lang["signup"]["alert"]["char_username"] = "يجب أن يحتوي اسم المستخدم على أحرف فقط!";
+$lang["signup"]["alert"]["limited_username"] = "يجب أن يكون اسم المستخدم محدودًا بين 3 و 15 حرفًا!";
+$lang["signup"]["alert"]["exist_username"] = "اسم المستخدم موجود بالفعل!";
+$lang["signup"]["alert"]["limited_pass"] = "يجب أن تكون كلمة المرور محدودة بين 6 و 12 حرفًا!";
+$lang["signup"]["alert"]["repass"] = "إعادة كلمة المرور يجب أن تتطابق مع كلمة المرور!";
+$lang["signup"]["alert"]["check_email"] = "يرجى إدخال بريد إلكتروني صالح!";
+$lang["signup"]["alert"]["exist_email"] = "عنوان البريد الإلكتروني موجود بالفعل!";
+$lang["signup"]["alert"]["birth"] = "يجب أن يكون تاريخ ميلادك بين 1-1-2005 و 1-1-1942!";
+$lang["signup"]["alert"]["success"] = "انتهت عملية التسجيل بنجاح.";
+$lang["signup"]["alert"]["success1"] = "انتهت عملية التسجيل بنجاح. ولكن ، لا تزال بحاجة إلى موافقة الإدارة.";
+$lang["signup"]["alert"]["success2"] = "انتهت عملية التسجيل بنجاح. ولكن ، لا تزال بحاجة إلى التنشيط عبر البريد الإلكتروني.";
+$lang["signup"]["alert"]["error"] = "اسم المستخدم أو كلمة المرور غير متوفرة!";
+
+
+$lang["details"]["title"] = "إدارة بقية المقال:";
+$lang["details"]["firstname"] = "اسمك الأول";
+$lang["details"]["lastname"] = "اسمك الاخير";
+$lang["details"]["username"] = "تحرير اسم المستخدم";
+$lang["details"]["password"] = "تحرير كلمة المرور";
+$lang["details"]["email"] = "تحرير البريد الإلكتروني";
+$lang["details"]["male"] = "الذكر";
+$lang["details"]["female"] = "أنثى";
+$lang["details"]["country"] = "بلد";
+$lang["details"]["state"] = "الولاية / المنطقة";
+$lang["details"]["city"] = "مدينة";
+$lang["details"]["address"] = "العنوان الكامل";
+$lang["details"]["image_n"] = "لم يتم اختيار صورة ...";
+$lang["details"]["image_c"] = "اختر صورة";
+$lang["details"]["button"] = "أرسل المعلومات";
+$lang["details"]["alert"]["success"] = "انتهت عملية تحرير معلومات المقال بنجاح.";
+
+
+$lang["survey"]["close_h"] = "هذا المسح حاليا مغلق.";
+$lang["survey"]["close_p"] = "هل تريد إنشاء استبيان خاص بك؟";
+$lang["survey"]["button"] = "الاشتراك مجانا";
+$lang["survey"]["back"] = "عودة";
+$lang["survey"]["next"] = "التالى";
+$lang["survey"]["alert"]["error"] = "مطلوب للإجابة!";
+
+
+$lang["alerts"]["no-data"] = "لاتوجد بيانات!";
+$lang["alerts"]["permission"] = "لا يمكنك الوصول إلى هذه الصفحة لأن عليك ترقية خطتك!";
+$lang["alerts"]["wrong"] = "هناك خطأ ما!";
+$lang["alerts"]["required"] = "جميع الحقول المعلمة ب * مطلوبة!";
+$lang["alerts"]["danger"] = "أوه المفاجئة!";
+$lang["alerts"]["success"] = "أحسنت!";
+$lang["alerts"]["warning"] = "تحذير!";
+$lang["alerts"]["info"] = "انتباه!";
+
+$lang["responses"]["title"] = "إجابات المسح الخاص بي";
+$lang["responses"]["btn_1"] = "انظر العلاقة";
+$lang["responses"]["btn_2"] = "تحرير الاستطلاع";
+
+$lang["rapports"]["title"] = "عنوان:";
+$lang["rapports"]["btn1"] = "إنشاء مسح";
+$lang["rapports"]["btn2"] = "تحرير الاستطلاع";
+$lang["rapports"]["stats_d"] = "إحصائيات الأيام السبعة الأخيرة";
+$lang["rapports"]["stats_m"] = "إحصائيات هذا العام";
+$lang["rapports"]["views"] = "الآراء:";
+$lang["rapports"]["responses"] = "استجابات:";
+$lang["rapports"]["rate"] = "معدل الانتهاء:";
+$lang["rapports"]["start"] = "تاريخ البدء:";
+$lang["rapports"]["end"] = "تاريخ الانتهاء:";
+$lang["rapports"]["last_r"] = "الرد الأخير:";
+$lang["rapports"]["days"] = "اخر 7 ايام";
+$lang["rapports"]["months"] = "شهر";
+$lang["rapports"]["results"] = "جميع النتائج";
+$lang["rapports"]["export"] = "تصدير البيانات";
+$lang["rapports"]["by"] = "الإجابة عن طريق";
+$lang["rapports"]["people"] = "اشخاص";
+$lang["rapports"]["alert"]["success"] = "انتهت عملية تحرير معلومات المقال بنجاح.";
+
+
+$lang["plans"]["title"] = "تسعير بسيط للجميع!";
+$lang["plans"]["desc"] = "تسعير مصمم للأعمال من جميع الأحجام. اعرف دائمًا ما ستدفعه. جميع الخطط تأتي مع 100 ٪ من أموال الغواران.";
+$lang["plans"]["month"] = "/كل شهر";
+$lang["plans"]["btn"] = "البدء";
+$lang["plans"]["alert"]["success"] = "تم حساب دفعاتك!";
+
+
+$lang["new"]["title"] = "قم بإنشاء استبيان جديد";
+$lang["new"]["questions"] = "الأسئلة";
+$lang["new"]["welcome"] = "صفحة الترحيب";
+$lang["new"]["thanks"] = "شكرا لك الصفحة";
+$lang["new"]["design"] = "التصميم";
+$lang["new"]["stitle"] = "عنوان المسح";
+$lang["new"]["start"] = "تاريخ بدء المسح";
+$lang["new"]["end"] = "تاريخ انتهاء المسح";
+$lang["new"]["url"] = "إعادة توجيه URL";
+$lang["new"]["private"] = "هذا سوريفي خاص (يأخذ فقط عن طريق URL)";
+$lang["new"]["unpub"] = "غير منشورة";
+$lang["new"]["ip"] = "تقييد IP";
+$lang["new"]["start_q"] = "ابدأ في طرح الأسئلة!";
+$lang["new"]["new_step"] = "أضف خطوة جديدة";
+$lang["new"]["new_q"] = "سؤال جديد";
+$lang["new"]["new_qpl"] = "اكتب سؤالك";
+$lang["new"]["new_qde"] = "اكتب وصفا موجزا لسؤالك";
+$lang["new"]["new_qre"] = "السؤال المطلوب للإجابة";
+$lang["new"]["new_qln"] = "إجابات في نفس السطر";
+$lang["new"]["new_a"] = "إجابات جديدة";
+$lang["new"]["new_abtn"] = "اضف جديد";
+$lang["new"]["new_as1"] = "نص سطر واحد";
+$lang["new"]["new_as2"] = "نص الفقرة";
+$lang["new"]["new_as3"] = "اختيار متعدد (مربع اختيار)";
+$lang["new"]["new_as4"] = "الاختيار من متعدد (راديو)";
+$lang["new"]["new_as5"] = "مقياس التصنيف";
+$lang["new"]["new_as6"] = "وقت التاريخ";
+$lang["new"]["new_as7"] = "رقم الهاتف";
+$lang["new"]["new_as8"] = "بلد";
+$lang["new"]["new_as9"] = "عنوان البريد الإلكتروني";
+$lang["new"]["new_asi"] = "أيقونة";
+$lang["new"]["new_aspl"] = "عنصر نائب";
+$lang["new"]["new_asck"] = "اكتب اسمًا";
+$lang["new"]["wp"] = "صفحة الترحيب";
+$lang["new"]["wp_h"] = "العنوان";
+$lang["new"]["wp_btn"] = "نص زر البدء";
+$lang["new"]["wp_icon"] = "رمز زر البدء";
+$lang["new"]["tx"] = "شكرا لك الصفحة";
+$lang["new"]["tx_h"] = "العنوان";
+$lang["new"]["tx_btn"] = "نص زر الإنهاء";
+$lang["new"]["tx_icon"] = "رمز زر الإنهاء";
+$lang["new"]["send"] = "إرسال مسح";
+$lang["new"]["design_bs"] = "ظل الزر:";
+$lang["new"]["design_bb"] = "حد الزر:";
+$lang["new"]["design_si"] = "بحجم:";
+$lang["new"]["design_s"] = "أسلوب:";
+$lang["new"]["design_c"] = "اللون";
+$lang["new"]["design_btg"] = "خلفية الزر:";
+$lang["new"]["design_g"] = "الانحدار";
+$lang["new"]["design_n"] = "عادي";
+$lang["new"]["design_btc"] = "لون نص Butoon:";
+$lang["new"]["design_sbg"] = "خلفية المسح:";
+$lang["new"]["design_stbg"] = "خلفية الخطوة:";
+$lang["new"]["design_ibg"] = "خلفية الإدخال:";
+$lang["new"]["design_yes"] = "نعم";
+$lang["new"]["design_no"] = "لا";
+$lang["new"]["alert"]["error"] = "خطأ! بعض حقول المسح مطلوبة!";
+$lang["new"]["alert"]["error1"] = "خطأ! يرجى التأكد من إضافة {var}!";
+$lang["new"]["alert"]["error2"] = "خطأ! يرجى التأكد من إضافة أسئلة إلى الخطوة";
+$lang["new"]["alert"]["error3"] = "خطأ! يرجى التأكد من أن السؤال {var} يحتوي على أكثر من 8 أحرف!";
+$lang["new"]["alert"]["error4"] = "خطأ! يرجى التأكد من إضافة إجابات للسؤال";
+$lang["new"]["alert"]["error5"] = "خطأ! يرجى التأكد من أن جميع الإجابات في السؤال {var} لها أكثر من 3 أحرف";
+$lang["new"]["alert"]["success"] = "نجاح! كله تمام!!";
+
+
+$lang["edit"]["title"] = "تحرير استبيان جديد";
+$lang["edit"]["alert"]["success"] = "تم حساب دفعاتك!";
+
+
+$lang["mysurvys"]["title"] = "استطلاعاتي";
+$lang["mysurvys"]["alltitle"] = "استطلاعات الأعضاء";
+$lang["mysurvys"]["create"] = "إنشاء مسح";
+$lang["mysurvys"]["status"] = "الحالة";
+$lang["mysurvys"]["name"] = "اسم المسح";
+$lang["mysurvys"]["views"] = "الآراء";
+$lang["mysurvys"]["responses"] = "استجابات";
+$lang["mysurvys"]["rate"] = "معدل كامل";
+$lang["mysurvys"]["created"] = "خلقت";
+$lang["mysurvys"]["last_r"] = "الرد الأخير";
+$lang["mysurvys"]["op_view"] = "مشاهدة الاستطلاع";
+$lang["mysurvys"]["op_stats"] = "إحصائيات المسح";
+$lang["mysurvys"]["op_resp"] = "إظهار الردود";
+$lang["mysurvys"]["op_edit"] = "تحرير الاستطلاع";
+$lang["mysurvys"]["op_delete"] = "حذف الاستطلاع";
+$lang["mysurvys"]["alert"]["success"] = "تم حساب دفعاتك!";
+
+
+$lang["dashboard"]["hello"] = "مرحبا،";
+$lang["dashboard"]["welcome"] = "مرحبًا بعودتك مرة أخرى إلى لوحة التحكم.";
+$lang["dashboard"]["stats_line_d"] = "إحصائيات الأيام السبعة الأخيرة";
+$lang["dashboard"]["stats_line_m"] = "إحصائيات هذا العام";
+$lang["dashboard"]["stats_bar_d"] = "إحصائيات الأيام السبعة الأخيرة";
+$lang["dashboard"]["stats_bar_m"] = "إحصائيات هذا العام";
+$lang["dashboard"]["surveys"] = "الدراسات الاستقصائية";
+$lang["dashboard"]["users"] = "المستخدمون";
+$lang["dashboard"]["responses"] = "استجابات";
+$lang["dashboard"]["questions"] = "الأسئلة";
+$lang["dashboard"]["new_u"] = "المستخدمون الجدد (24 ساعة)";
+$lang["dashboard"]["new_p"] = "أحدث المدفوعات (24 ساعة)";
+$lang["dashboard"]["new_s"] = "أحدث الاستطلاعات (24 ساعة)";
+$lang["dashboard"]["u_users"] = "أفراد";
+$lang["dashboard"]["u_status"] = "الحالة";
+$lang["dashboard"]["u_username"] = "اسم المستخدم";
+$lang["dashboard"]["u_plan"] = "خطة";
+$lang["dashboard"]["u_credits"] = "ائتمانات";
+$lang["dashboard"]["u_last_p"] = "الدفعة الأخيرة";
+$lang["dashboard"]["u_registred"] = "مسجل في";
+$lang["dashboard"]["u_updated"] = "تم التحديث في";
+$lang["dashboard"]["u_delete"] = "مسح المستخدم";
+$lang["dashboard"]["u_edit"] = "تحرير العضو";
+$lang["dashboard"]["p_title"] = "المدفوعات";
+$lang["dashboard"]["p_user"] = "المستعمل";
+$lang["dashboard"]["p_status"] = "الحالة";
+$lang["dashboard"]["p_plan"] = "خطة";
+$lang["dashboard"]["p_amount"] = "كمية";
+$lang["dashboard"]["p_date"] = "تاريخ الدفع";
+$lang["dashboard"]["p_txn"] = "TXN";
+$lang["dashboard"]["set_title"] = "الاعدادات العامة";
+$lang["dashboard"]["set_stitle"] = "عنوان الموقع:";
+$lang["dashboard"]["set_keys"] = "الكلمات الرئيسية للموقع:";
+$lang["dashboard"]["set_desc"] = "وصف الموقع:";
+$lang["dashboard"]["set_url"] = "URL الموقع:";
+$lang["dashboard"]["set_btn"] = "إرسال الإعدادات";
+$lang["dashboard"]["alert"]["success"] = "تم إرسال الإعداد بنجاح.";

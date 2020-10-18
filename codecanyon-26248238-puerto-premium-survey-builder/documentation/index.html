@@ -1,0 +1,311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Puerto - Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" media="all" href="assets/highlight/jquery.highlight.css" />
+	<script type="text/javascript" src="assets/highlight/jquery.highlight.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol', source:false});
+		});
+	</script>
+
+	<link type="text/css" rel="stylesheet" media="all" href="assets/puerto/css/main.css" />
+
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.puerto_row .clearfix { margin: 10px 0; }
+		.p-h { inline-block;padding:2px 6px;background:#EEE;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#555;text-shadow:0 1px 0 #FFF; }
+		div.highlight pre.code ol li, div.highlight pre.code ul li { color: #999; }
+		pre.code .com, pre.code .com span { color: #E44CDE; }
+		pre.code .tag { color: #1979D1; }
+		pre.code .atv { color: #0B963D; }
+		pre.code .atn { color: #999; }
+	</style>
+
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="assets/puerto/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Puerto Premium Survey&rdquo; Documentation by &ldquo;Puerto Khalid&rdquo; v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Puerto Premium Survey&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 28/02/2020<br>
+					By: <a href="http://codecanyon.net/user/puertokhalid">Puerto Khalid</a><br>
+					Email: <a href="mailto:el.bouirtou@gmail.com">el.bouirtou@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/puertokhalid">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#overview">Overview about Puerto Premium Survey</a></li>
+			<li><a href="#install">Install</a></li>
+			<li><a href="#structure">Structure</a></li>
+			<li><a href="#PHP_structure">PHP Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+
+<hr>
+
+<h3 id="overview"><strong>A) Overview</strong> - <a href="#toc">top</a></h3>
+<p>
+	Hi, in this video I will show you an overview about Puerto Premium Survey. I hope you enjoy it.
+	<br /> please notice that, if you have any problem or issue with the script or the instraction that I provide please contact me first ASAP in my email <span class="p-h">el.bouirtou@gmail.com</span> or on my Facebook account <span class="p-h"><a href="https://fb.com/prof.puertokhalid">fb.com/prof.puertokhalid</a></span> or the Instagram <span class="p-h"><a href="https://instagram.com/khalidpuerto">instagram.com/khalidpuerto</a></span>. and I will back to you with all help you need.
+	<p style="display: table;margin: 24px auto;">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/EJsz3R1oWHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</p>
+</p>
+
+<h3 id="install"><strong>A) Install</strong> - <a href="#toc">top</a></h3>
+
+<p>To install Puerto Premium Survey you would do as following:</p>
+<p style="display: table;margin: 24px auto;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/zZb5wdNksXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>At first you must open the file <span class="p-h">./configs/connection.php</span>:</p>
+<p style="text-align:center;"><img src="assets/images/1.png" style="width: 50%"></p>
+
+<p>Then edit the following code with your own server info:</p>
+
+<pre class="code" lang="php">
+# Database Host Name
+define("HOSTNAME", "put here your hostname");
+
+# Database Username
+define("USERNAME", "put here the database username");
+
+# Database Password
+define("PASSWORD", "put here the database password");
+
+# Database Name
+define("DATABASE", "put here the database name");
+</pre>
+
+<!-- <p style="text-align:center;"><img src="assets/images/2.gif" style="width: 100%"></p> -->
+
+<p>After thaht go to <span class="p-h">http://yourwebsite.com/</span> and fillout the admin input with your informations and click "Install Puerto Script".</p>
+
+<p style="text-align:center;"><img src="assets/images/2.png" style="width: 60%"></p>
+
+<p>If as this image appears then the script is installed successfully.</p>
+<p style="text-align:center;"><img src="assets/images/3.png" style="width: 60%"></p>
+<p style="color:red">then delete the <span class="p-h">install.php</span> file.</p>
+
+<!-- <p style="text-align:center;"><img src="assets/images/4.gif" style="width: 100%"></p> -->
+
+<!-- <p>When you done with this step go to <span class="p-h">./configs/defines.php</span> and change the <span class="p-h">path</span> value to the link to your domain directory.</p>
+<pre class="code" lang="php">
+define("path", "YOUR URL HERE");
+</pre>
+<p style="text-align:center;"><img src="assets/images/5.gif" style="width: 100%"></p> -->
+
+<hr>
+<h5>Tips for Testing in the PayPal Sandbox</h5>
+
+<p>1) Create an account at <a href="http://developer.paypal.com">http://developer.paypal.com</a></p>
+
+<p style="text-align:center;"><img src="assets/images/p2.png" style="width: 80%"></p>
+
+<p>2) Then Sandbox Accounts</p>
+<p style="text-align:center;"><img src="assets/images/p1.png" style="width: 80%"></p>
+<p>3) Create a business account first, and repeat the same process to create personal account.</p>
+<p style="text-align:center;"><img src="assets/images/p3.png" style="width: 60%"></p>
+<p>4) After that click view/edit account and get the email ID</p>
+<p style="text-align:center;"><img src="assets/images/p4.png" style="width: 80%"></p>
+<p>5) Then go to administration -> Settings -> Paypal and add the email ID</p>
+<p style="text-align:center;"><img src="assets/images/p5.png" style="width: 100%"></p>
+<hr>
+
+<h5>Tips for Going Live: Review <a href="https://developer.paypal.com/docs/api/goingLive/">PayPal’s Going Live Information</a></h5>
+
+<hr>
+
+
+
+
+
+<h4 class="title" style="font-size: 18px;">Sign in with Facebook</h4>
+<p>To implement Facebook Login system for the application, the first step is the creation of an app through the Facebook account.</p>
+<p>Sign into the Facebook and go to&nbsp;<a href="https://developer.facebook.com/" target="_blank" rel="noopener">developer.facebook.com</a></p>
+<p>Once there, create an app.</p>
+<div class="img-wrapper mtb-50" data-title="Figure 7.1"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_1.png" alt="" />
+</div>
+<p>Click&nbsp;<strong>Add New App</strong>&nbsp;button and select Website as the platform.</p>
+<div class="img-wrapper mtb-50" data-title="Figure 7.2"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_2.png" alt="" />
+</div>
+<p>Enter the app&rsquo;s name, an email id and select a category for the application. Now click&nbsp;<strong>Create App Id</strong>&nbsp;button. This will create an app in Facebook.</p>
+<div class="img-wrapper mtb-50" data-title="Figure 7.3"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_3.png" alt="" />
+</div>
+<p>Now go to&nbsp;<strong>Settings</strong>, where the App Secret and App ID could be found. These ids will be used in the PHP application. Remember to add the website&rsquo;s URL in App Domains.</p>
+<p>Down the page, Click the&nbsp;<strong>Add Platform</strong>&nbsp;tab. Add website as a platform and enter the URL of the</p>
+<div class="img-wrapper mtb-50" data-title="Figure 7.4"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_4.png" alt="" />
+</div>
+<div class="img-wrapper mtb-50" data-title="Figure 7.5"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_5.png" alt="" />
+</div>
+<p>This finishes the creation of the Facebook App. The next step is to create a server on a fast and reliable hosting platform. I have opted for Cloudways PHP stack server.</p>
+<p>Now paste the App ID, App secret in the administration -> settings -> facebook.</p>
+
+<p>At last make the staus of the app live</p>
+<div class="img-wrapper mtb-50" data-title="Figure 7.7"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_status_live.png" alt="" />
+</div>
+<p>Now go to the&nbsp;<strong>facebook login &gt; setting</strong></p>
+<p>Put your server link in the&nbsp;<strong>Valid OAuth Redirect URIs</strong></p>
+<div class="img-wrapper mtb-50" data-title="Figure 7.8"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/fb_redirect_url.png" alt="" width="100%" />
+</div>
+<p>If you find any difficulty to cofigure please check&nbsp;<a class="link" href="https://www.youtube.com/watch?v=e7PWya_dbLo" target="_blank" rel="noopener"><strong>the youtube video</strong></a>&nbsp;or read&nbsp;<a class="link" href="https://www.codexworld.com/login-with-facebook-using-php" target="_blank" rel="noopener"><strong>the article</strong></a></p>
+
+
+
+
+
+<hr>
+
+
+<h4 class="title" style="font-size: 18px;">Google Login</h4>
+<p>Go to the&nbsp;<a href="https://console.developers.google.com/" target="_blank" rel="noopener">Google API Console</a>.</p>
+<p>Select an existing project from the projects list, or click NEW PROJECT to create a new project:</p>
+<p>Enter the Project Name.</p>
+<p>Under the Project Name, you will see the Google API console automatically creates a project ID. Optionally you can change this project ID by the Edit link. But project ID must be unique worldwide.</p>
+<p>Click on the CREATE button and the project will be created in some seconds.</p>
+<p>In the left side navigation panel, select Credentials under the APIs &amp; Services section.</p>
+<p>Select the OAuth consent screen tab, specify the consent screen settings.</p>
+<p>In Application name field, enter the name of your Application.</p>
+<p>In Support email filed, choose an email address for user support.</p>
+<p>In the Authorized domains, specify the domains which will be allowed to authenticate using OAuth.</p>
+<p>Click the Save button.</p>
+<p>Select the Credentials tab, click the Create credentials drop-down and select OAuth client ID.</p>
+<p>In the Application type section, select Web application.</p>
+<p>In the Authorized redirect URIs field, enter the redirect URL.</p>
+<p>Click the Create button.</p>
+<p>A dialog box will appear with OAuth client details, note the Client ID and Client secret. This Client ID and Client secret allow you to access the Google APIs.</p>
+<div class="img-wrapper mtb-50" data-title="Figure 6.1"><img src="https://theme1.w3engineers.com/codecanyon/streamz-frontend/doc/images/google_config.png" alt="" width="100%" />
+</div>
+<p>Note that: This Client ID and Client secret need to be specified in the script at the time of Google API call. Also, the Authorized redirect URI needs to be matched with the redirect URL that specified in the script.</p>
+<p>Now paste the Client ID, client secret in the administration -> settings -> facebook..</p>
+
+<p>If you find any difficulty to cofigure please check&nbsp;<a class="link" href="https://www.youtube.com/watch?v=Zj0NcHtiLmI" target="_blank" rel="noopener"><strong>the youtube video</strong></a>&nbsp;or read&nbsp;<a class="link" href="https://www.codexworld.com/login-with-google-api-using-php/" target="_blank" rel="noopener"><strong>the article</strong></a></p>
+
+
+<hr>
+<h3 id="structure"><strong>B) Structure</strong> - <a href="#toc">top</a></h3>
+
+<p>The structure of the files of Puerto Premium Survey, is very simple:</p>
+
+<ol>
+	<li>In the <b>"root"</b> there are the PHP pages of Puerto Premium Survey.</li>
+	<li>In the folder <b>"configs/"</b> and subfolders there are the files of the Puerto Premium Survey system</li>
+	<li>In the folder <b>"css/"</b> there are CSS files of the Puerto Premium Survey system</li>
+	<li>In the folder <b>"documentation/"</b> there is the documentation page.</li>
+	<li>In the folder <b>"img/"</b> there are Images of the Puerto Premium Survey system</li>
+	<li>In the folder <b>"js/"</b> there are Javascript files of the Puerto Premium Survey system</li>
+	<li>In the folder <b>"upload/"</b> there are the members images that uploaded in your server.</li>
+	<li>In the folder <b>"ajax/"</b> there is the script's ajax files.</li>
+	<li>In the folder <b>"flags/"</b> there is the script's flags images.</li>
+	<li>In the folder <b>"lag/"</b> there is the script's languages files.</li>
+</ol>
+
+
+<!-- <p style="text-align:center;"><img src="assets/images/4.png" style="width: 60%"></p> -->
+
+<hr>
+
+<h3 id="PHP_structure"><strong>C) PHP Structure</strong> - <a href="#toc">top</a></h3>
+
+<p>To simplify the reading, we have divided the structure into two parts:</p>
+
+<ol>
+	<li>PHP pages (in the "root"):</li>
+	<div class="margin">
+	- <b>ajax.php</b>, this script displays ajax queries of system.<br>
+	- <b>configs.php</b>, this script displays queries of system.<br>
+	- <b>dashboard.php</b> this script displays the dashboard area.<br>
+	- <b>intall.php</b>, this script displays the installation file.<br>
+	- <b>footer.php</b>, this script displays a preview of a footer.<br>
+	- <b>login.php</b>, this script displays queries of login system.<br>
+	- <b>header.php</b>, this script displays a preview of a header page.<br>
+	- <b>index.php</b>, this script displays a preview of index page.<br>
+	- <b>mysurvies.php</b>, this script displays the the surveys list.<br>
+	</div>
+
+</ol>
+
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>D) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using these CSS files in this item.</p>
+
+<pre class="code" lang="html">
+<!-- Google Fonts -->
+
+<!-- Font Awseome -->
+
+<!-- JQuery Libraries -->
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="css/style.css">
+</pre>
+
+
+<p><span class="p-h">style.css</span> contains all of the specific stylings for the Puerto Premium Survey.</p>
+<p><span class="p-h">rtl.css</span> contains all of the specific rtl stylings for the Puerto Premium Survey.</p>
+
+<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+		<hr>
+
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+		<ul>
+
+		<li>I've used icons font from <a href="https://fontawesome.com/">Font awesome</a>.</li>
+		<li>jQuery Livequery by <a href="http://brandonaaron.net">Brandon Aaron</a></li>
+		<li>jQuery SCEditor by <a href="https://www.sceditor.com/">Sceditor</a></li>
+		</ul>
+
+
+		<hr>
+
+		<p>Once again, thank you so much for purchasing this item. As I said at the beginning, I'd be glad to help you if you have any questions relating to this item. No guarantees, but I'll do my best to assist. If you have a more general question relating to the item on Codecanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+
+		<p class="append-bottom alt large"><strong>Puerto Khalid</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

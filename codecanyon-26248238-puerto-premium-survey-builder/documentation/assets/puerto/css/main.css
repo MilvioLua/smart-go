@@ -1,0 +1,428 @@
+/* ==========================================================================
+   GLOBAL styles
+   ========================================================================== */
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* ==========================================================================
+   END GLOBAL styles
+   ========================================================================== */
+
+   
+
+
+/* ==========================================================================
+   COLUMNS styles
+   ========================================================================== */
+
+.puerto_row {
+    clear: both;
+    padding: 0 10px;
+}
+.puerto_row .clearfix {
+    margin:40px 0;
+}
+
+.clm-1, .clm-2, .clm-3, .clm-4, .clm-5, .clm-6, .clm-7, .clm-8, .clm-9, .clm-10, .clm-11, .clm-12 {
+    float: left;
+    margin: 0 3% 0 0;
+}
+
+.clm-1.last, .clm-2.last, .clm-3.last, .clm-4.last, .clm-5.last, .clm-6.last, .clm-7.last, .clm-8.last, .clm-9.last, .clm-10.last, .clm-11.last, .clm-12 {
+    margin: 0;
+}
+
+.clm-1 { width: 5.5%; }
+.clm-2 { width: 14%; }
+.clm-3 { width: 22.5%; }
+.clm-4 { width: 31%; }
+.clm-5 { width: 39.5%; }
+.clm-6 { width: 48%; }
+.clm-7 { width: 56.5%; }
+.clm-8 { width: 65%; }
+.clm-9 { width: 73.5%; }
+.clm-10 { width: 82%; }
+.clm-11 { width: 90.5%; }
+.clm-12 { width: 99%; margin: 0; }
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .clm-3 { width: 48%; margin-bottom: 5%; }
+    .clm-3:nth-child(2) { margin-right: 0; }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .clm-1, .clm-2, .clm-3, .clm-4, .clm-5, .clm-6, .clm-7, .clm-8, .clm-9, .clm-10, .clm-11, .clm-12 {
+        float: none;
+        margin: 0 0 30px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .clm-1, .clm-2, .clm-3, .clm-4, .clm-5, .clm-6, .clm-7, .clm-8, .clm-9, .clm-10, .clm-11, .clm-12 {
+        float: none;
+        margin: 0 0 30px 0;
+        width: 100%;
+    }
+}
+
+
+/* ==========================================================================
+   END COLUMNS styles
+   ========================================================================== */
+
+   
+
+/* ==========================================================================
+   PRICING TABLES styles
+   ========================================================================== */
+
+.pricing {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+	
+    position: relative;
+}
+.pricing:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+	
+    z-index: 10;
+}
+.pricing-head h1 {
+    color: #FFF;
+}
+.pricing-head h1, .pricing-head h4 {
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #EEE;
+}
+.pricing-head h1 span, .pricing-head h4 span {
+    display: block;
+    font-size: 14px;
+}
+.pricing-head h4 {
+    font-size: 54px;
+}
+.pricing-head h4 i {
+    top: -8px;
+    font-size: 28px;
+    position: relative;
+    margin-right: 3px;
+}
+.pricing ul, .pricing-foot {
+    margin: 0;
+    padding: 0;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #EEE;
+    list-style: none;
+    background: #FFF;
+}
+.pricing ul li {
+    padding: 10px 20px;
+    background: #FFFF;
+    font-size: 12px;
+    border-top: 1px solid #EEE;
+    color: #777;
+}
+.pricing ul li i {
+    margin-right: 5px;
+    font-size: 14px;
+}
+.pricing-foot {
+    text-align: center;
+    padding: 10px
+}
+.pricing-foot a i {
+    padding-top: 3px;
+}
+.pricing-foot p {
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+}
+
+/* ==========================================================================
+   END PRICING TABLES styles
+   ========================================================================== */
+
+
+/* ==========================================================================
+   NOTES styles
+   ========================================================================== */
+
+.note {
+    margin: 0 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+}
+.note h4, .note p {
+    margin: 0;
+}
+.note p {
+    font-size: 14px;
+    color: #777;
+}
+.note-default {
+    background-color: #F7F7F7;
+    border-color: #777;
+}
+.note-success {
+    background-color: #EBFCEE;
+    border-color: #3cc051;
+}
+.note-info {
+    background-color: #E8F6FC;
+    border-color: #57b5e3;
+}
+.note-warning {
+    background-color: #FCF3E1;
+    border-color: #fcb322;
+}
+.note-danger {
+    background-color: #FAEAE6;
+    border-color: #ed4e2a;
+}
+.note-black {
+    background-color: #444;
+    border-color: #000;
+}
+.note-black h4 {
+    color: #FFF;
+}
+.note-black p {
+    color: #AAA;
+}
+
+/* ==========================================================================
+   END NOTES styles
+   ========================================================================== */
+   
+   
+   
+/* ==========================================================================
+   BUTTONS styles
+   ========================================================================== */
+
+
+.puerto-btn,
+.puerto-btn-b {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 20px;
+    border-width:0;
+    margin: 2px;
+	
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.btn-border  {
+    background: #FFF;
+    border-style: solid;
+    border-width: 1px 1px 3px 1px;
+}
+.puerto-btn,
+.puerto-btn i,
+.puerto-btn-b,
+.puerto-btn-b i {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.puerto-btn:hover i,
+.puerto-btn-:hover i  {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.puerto-btn i, .puerto-btn-b i {
+    float: left;
+    margin: 2px 10px 0 -8px;
+}
+.puerto-btn-b {
+    padding: 0 !important;
+}
+.puerto-btn-b i {
+    float: left;
+    padding: 12px;
+    margin: 0;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.puerto-btn-b i.border-white {
+    border-color: white;
+}
+.puerto-btn-b span {
+    display: inline-block;
+    padding: 10px 10px;
+}
+.small-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+}
+.large-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+/* ==========================================================================
+   END BUTTONS styles
+   ========================================================================== */
+
+
+   
+/* ==========================================================================
+   ALERTS styles
+   ========================================================================== */
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.alert i {
+    margin-right: 10px;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* ==========================================================================
+   END ALERTS styles
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   COLORS styles
+   ========================================================================== */
+   
+ 
+.border-default { border-color: #999999; }
+.border-black     { border-color: #333333; }
+.border-green     { border-color: #75AD16; }
+.border-orange   { border-color: #F86227; }
+.border-blue       { border-color: #4CA1FC; }
+.border-yellow   { border-color: #FCC44C; }
+.border-pink       { border-color: #FC4C7D; }
+.border-purple   { border-color: #E04CFC; }
+
+.btn-border.border-default:hover { border-color: #888888; }
+.btn-border.border-black:hover     { border-color: #222222; }
+.btn-border.border-green:hover     { border-color: #629212; }
+.btn-border.border-orange:hover   { border-color: #F85010; }
+.btn-border.border-blue:hover       { border-color: #1C95BD; }
+.btn-border.border-yellow:hover   { border-color: #FCB82C; }
+.btn-border.border-pink:hover       { border-color: #FC2E66; }
+.btn-border.border-purple:hover   { border-color: #DA20FB; }
+
+.background-default { background-color: #999999; }
+.background-black     { background-color: #333333; }
+.background-blue       { background-color: #1FA6D5; }
+.background-yellow   { background-color: #FCC44C; }
+.background-pink       { background-color: #FC4C7D; }
+.background-purple   { background-color: #E04CFC; }
+.background-orange   { background-color: #F86227; }
+.background-green     { background-color: #75AD16; }
+
+.puerto-btn.background-default:hover,
+.puerto-btn-b.background-default:hover { background-color: #888888; }
+.puerto-btn.background-black:hover,
+.puerto-btn-b.background-black:hover     { background-color: #222222; }
+.puerto-btn.background-blue:hover,
+.puerto-btn-b.background-blue:hover       { background-color: #1C95BD; }
+.puerto-btn.background-yellow:hover,
+.puerto-btn-b.background-yellow:hover  { background-color: #FCB82C; }
+.puerto-btn.background-pink:hover,
+.puerto-btn-b.background-pink:hover       { background-color: #FC2E66; }
+.puerto-btn.background-purple:hover,
+.puerto-btn-b.background-purple:hover   { background-color: #DA20FB; }
+.puerto-btn.background-orange:hover,
+.puerto-btn-b.background-orange:hover   { background-color: #F85010; }
+.puerto-btn.background-green:hover,
+.puerto-btn-b.background-green:hover     { background-color: #629212; }
+
+
+.color-blue       { color: #4CA1FC; }
+.color-yellow   { color: #FCC44C; }
+.color-pink       { color: #FC4C7D; }
+.color-purple   { color: #E04CFC; }
+.color-orange   { color: #F86227; }
+.color-green     { color: #75AD16; }
+.color-black     { color: #333333; }
+.color-default { color: #999999; }
+
+
+.color-blue:hover        { color: #1C95BD; }
+.color-yellow:hover    { color: #FCB82C; }
+.color-pink:hover        { color: #FC2E66; }
+.color-purple:hover    { color: #DA20FB; }
+.color-orange :hover   { color: #F85010; }
+.color-green:hover      { color: #629212; }
+.color-black:hover      { color: #222222; }
+.color-default:hover  { color: #888888; }
+
+
+/* ==========================================================================
+   END COLORS styles
+   ========================================================================== */
+   
+
+
+
+
