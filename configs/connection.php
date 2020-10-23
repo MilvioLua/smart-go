@@ -20,16 +20,16 @@
 # -------------------------------------------------#
 
 # Database Host Name
-define("HOSTNAME", "put here your hostname");
+define("HOSTNAME", "localhost");
 
 # Database Username
-define("USERNAME", "put here the database username");
+define("USERNAME", "root");
 
 # Database Password
-define("PASSWORD", "put here the database password");
+define("PASSWORD", "");
 
 # Database Name
-define("DATABASE", "put here the database name");
+define("DATABASE", "smartgo");
 
 # Tables' Prefix
 define('prefix', 'puerto_');
